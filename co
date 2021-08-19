@@ -1,0 +1,37 @@
+#!/bin/bash
+#2.拉回来
+git pull
+#33.添加和推上去
+git add .  #添加当前目录下的所有文件和子目录
+git commit -m  "`date`"  #"dbbak and cutnglog"
+git branch -M main
+git push -u origin main
+#git push 
+
+#有时记得要删除
+# 尚未暂存以备提交的变更：
+#   （使用 "git add/rm <file>..." 更新要提交的内容）
+#   （使用 "git checkout -- <file>..." 丢弃工作区的改动）
+#   删除：      document/plan
+#   删除：      document/plan~
+
+#git push -u origin main…or create a new repository on the command line
+#
+#echo "# pyecharts" >> README.md
+#git init
+#git add README.md
+#git commit -m "first commit"
+#git branch -M main
+#git remote add origin git@github.com:evan886/pyecharts.git
+#git push -u origin main
+#
+#…or push an existing repository from the command line
+#
+#git remote add origin git@github.com:evan886/pyecharts.git
+#git branch -M main
+#git push -u origin main
+#
+#…or import code from another repository
+#
+#You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+#~                                                                   
