@@ -14,7 +14,7 @@ docker-compose build
 
 ## Usage (docker)
 ```
-docker run -it --name mysql -p 3306:3306 -v $(pwd):/app -e MYSQL_DATABASE=admin -e MYSQL_USER=tony -e MYSQL_PASSWORD=dpa\*12d -e MYSQL_ROOT_PASSWORD=111111 local/evan/alpine-mysql:3.14
+docker run -it --name mysql -p 3306:3306 -v $(pwd):/app -e MYSQL_DATABASE=admin -e MYSQL_USER=lai -e MYSQL_PASSWORD=evanlaixxxx -e MYSQL_ROOT_PASSWORD=111111 local/evan/alpine-mysql:3.14
 ```
 
 ## Usage (docker-compose)
