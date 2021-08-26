@@ -1,0 +1,4 @@
+
+
+docker run -it  --name alpine_nginx_php7.3 -p 80:80 alpine_nginx_php7.3:1 .
+docker run -it  --name alpine_nginx_php7.3 -p 80:80 id
